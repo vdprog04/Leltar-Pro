@@ -1,0 +1,28 @@
+# --- BIZTONSÁG (Legfontosabb!) ---
+# A környezeti változókat tartalmazó fájl, benne a jelszóval.
+# Ezt SOHA ne töltsd fel!
+.env
+
+# --- PYTHON ---
+# A Python által generált átmeneti mappák (felesleges feltölteni)
+__pycache__/
+*.py[cod]
+
+# --- EXE KÉSZÍTÉS ---
+# Az auto-py-to-exe (PyInstaller) által létrehozott mappák
+build/
+dist/
+*.spec
+
+# Maguk a futtatható fájlok (bárhol is vannak a mappában)
+*.exe
+
+# --- IDE BEÁLLÍTÁSOK ---
+# A PyCharm vagy VS Code saját beállításai (nem tartoznak a kódhoz)
+.idea/
+.vscode/
+
+# --- EGYÉB ---
+# Virtuális környezet mappája (ha használsz ilyet)
+venv/
+.venv/

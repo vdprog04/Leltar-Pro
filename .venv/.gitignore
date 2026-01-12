@@ -1,17 +1,2 @@
 # created by virtualenv automatically
-# Python gyorsítótár
-__pycache__/
-*.py[cod]
-
-# Környezeti változók (JELSZAVAK!)
-.env
-
-# Lefordított programok (EXE fájlok)
-*.exe
-dist/
-build/
-output/
-
-# Virtuális környezet (ha használsz ilyet)
-venv/
-.venv/
+*
